@@ -20,6 +20,7 @@ function App() {
       guardarNoticias(noticias.articles);
     }
     consultarAPI();
+    //eslint-disable-next-line
   }, [categoria]);
 
   return (

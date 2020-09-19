@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Noticia from './Noticia';
 
 const ListadoNoticias = ({noticias}) => (
@@ -14,4 +15,7 @@ const ListadoNoticias = ({noticias}) => (
 
 );
 
+ListadoNoticias.propTypes = {
+    noticias: PropTypes.array.isRequired
+}
 export default ListadoNoticias;
