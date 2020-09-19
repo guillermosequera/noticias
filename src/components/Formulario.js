@@ -47,4 +47,4 @@ const Formulario = ({guardarCategoria}) => {
     )
 }
 
-export default Formulario
+export default Formulario;
